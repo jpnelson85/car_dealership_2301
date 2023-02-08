@@ -11,6 +11,7 @@ class Dealership
 
   def add_car(vehicle)
     @inventory << vehicle
+    @inventory_count = @inventory.size
   end
 
 
