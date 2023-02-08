@@ -8,6 +8,10 @@ class Dealership
     @inventory_count = 0
   end
 
-  
+
+  def add_car(vehicle)
+    @inventory << vehicle
+  end
+
 
 end
